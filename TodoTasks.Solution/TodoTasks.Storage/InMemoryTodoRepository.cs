@@ -65,7 +65,7 @@ namespace TodoTasks.Storage
         }
 
         /// <summary>
-        /// Seeds the specified task repository.
+        /// Seeds the specified task repository with todo items and tasks.
         /// </summary>
         /// <param name="taskRepository">The task repository.</param>
         private void Seed(IRepository<Task> taskRepository)
